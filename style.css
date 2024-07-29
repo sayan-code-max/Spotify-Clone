@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Varela+Round&display=swap');
+
+body{
+    background-image: url("pexels-arist-creathrive-1183525-2253573.jpg");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: "Bodoni Moda SC", serif;
+}
+
+nav ul
+{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height:70px;
+    background-color: black;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img
+{
+    width:64px;
+    padding:0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container
+{
+    min-height:73vh;
+    background-color: rgb(30, 27, 32);
+    color: white;
+    font-family: "Bodoni Moda SC", serif;
+    display:flex;
+    margin: 23px auto;
+    width:70%;
+    border-radius: 15px;
+    padding: 34px;
+    background-image: url('wall.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.bottom
+{
+    position:sticky;
+    height: 100px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons
+{
+    margin-top: 30px;
+}
+
+.icons i
+{
+    padding: 15px;
+    cursor: pointer;
+}
+
+#myProgressBar
+{
+    position: absolute;
+    top:15px;
+    width:80vw;
+    cursor: pointer;
+}
+
+.songItemContainer
+{
+    margin-top: 20px;
+}
+
+.songItem
+{
+    height: 50px;
+    display:flex;
+    background-color: white;
+    width: 65%;
+    color: black;
+    font-family: "Varela Round", sans-serif;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    padding: 15px;
+}
+
+.songItem img
+{
+    width: 48px;
+    margin: 0 13px;
+    border-radius: 34px;
+}
+
+.timestrap
+{
+    margin: 0 13px;
+    /* position: relative;
+    bottom: 5.5px;     */
+}
+
+.timestrap i
+{
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.songInfo
+{
+    /* margin-bottom: 40px; */
+    position: absolute;
+    left: 10vw;
+    font-family: "Varela Round", sans-serif;
+}
+
+.songInfo img
+{
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+.timeInfo {
+    position: absolute;
+    left: 85vw;
+    margin-top: 20px;
+    font-family: "Varela Round", sans-serif;
+    font-size: 1rem;
+}
